@@ -8,9 +8,9 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="/" class="logo">
+      <div className="icon-card">
           <img src={logo} alt="Logo Icon" className="logo" />
-      </a>
+      </div>
       <h1>JOHN DOE</h1>
       <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
         <ul>
